@@ -1,8 +1,11 @@
 <template>
   <div id="app">
     <h1>Vue-AliPlayer</h1>
-    <h2>A Vue 2.x component of <a href="https://github.com/slacrey/vue-aliplayer" target="_blank">Aliplayer</a></h2>
-    <github-badge slug="slacrey/vue-aliplayer" />
+    <h2>
+      <p>A Vue 2.x component of <a href="https://gitee.com/Dream_bin/aliPlayer" target="_blank">Aliplayer_mayun</a></p>
+      <p>A Vue 2.x component of <a href="https://github.com/toUpSelf/aliPlayer" target="_blank">Aliplayer_github</a></p>
+    </h2>
+    <!-- <github-badge slug="slacrey/vue-aliplayer" /> -->
     <ali-player @play="played" :source="aplayer.source" :vid="aplayer.vid" :playauth="aplayer.playauth" ref="player"></ali-player>
     <div style="margin-top:20px;">
     <button @click="play">播放</button>
